@@ -34,10 +34,6 @@ La commande affiche une clé de produit composée de 25 caractères.
 
 *Important : la clé retournée par BackupProductKeyDefault n'est pas nécessairement la clé OEM intégrée au firmware. Elle peut notamment correspondre à une clé générique.*
 
-Pour consulter directement une éventuelle clé OEM enregistrée dans le firmware UEFI, il existe également cette commande :
-```powershell
-(Get-CimInstance -ClassName SoftwareLicensingService).OA3xOriginalProductKey
-```
 
 ## **2. Vérifier l'état d'activation de Windows**
 
@@ -47,7 +43,7 @@ La commande suivante permet de consulter l'état d'expiration de l'activation :
 ```powershell
 slmgr /xpr
 ```
-
+![capture](screenshots/capture-d-ecran-2026-11-05-100953.png)
 Dans mon cas, Windows affiche :
 
 « L'ordinateur est définitivement activé. »
@@ -63,7 +59,7 @@ Pour obtenir des informations plus détaillées sur la licence, utiliser :
 ```powershell
 slmgr /dlv
 ```
-
+![capture](screenshots/capture-d-ecran-2026-11-05-101039.png)
 Cette commande affiche notamment le canal de licence, l'état d'activation et les informations associées au produit.
 
 Sur mon Dell OptiPlex 3060, le canal identifié est :
