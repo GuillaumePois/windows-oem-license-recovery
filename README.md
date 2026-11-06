@@ -30,7 +30,7 @@ Pour consulter la clé de produit enregistrée, ouvrir PowerShell et exécuter :
 
 La commande affiche une clé de produit composée de 25 caractères.
 
-![Ma capture d'écran](screenshots/Capture d'écran 2026-11-05 100847.png)
+![capture](screenshots/capturec-d-ecran-2026-11-05-100847.png)
 
 *Important : la clé retournée par BackupProductKeyDefault n'est pas nécessairement la clé OEM intégrée au firmware. Elle peut notamment correspondre à une clé générique.*
 
