@@ -112,32 +112,6 @@ Cette vérification m'a permis de confirmer que Windows 11 Professionnel était 
 
 Je peux donc poursuivre mon projet de migration vers Debian 13 XFCE sans effacer la clé OEM présente dans le firmware.
 
-Cette manipulation constitue également un exercice intéressant pour mieux comprendre :
-
-L'utilisation de PowerShell.
-
-La consultation du registre Windows.
-
-Les mécanismes d'activation de Windows.
-
-Les différences entre licences OEM, Retail et Volume.
-
-Le rôle du firmware UEFI dans la gestion des licences.
-
-Prochaine étape
-
-Installation et configuration de Debian 13 XFCE pour transformer cet ordinateur en serveur de sauvegarde automatisé.
-
-Ressources
-
-Microsoft Learn — Options de Slmgr.vbs
-
-Microsoft — Activation de Windows
-
-Site officiel Debian
-
-Projet personnel d'administration systèmes, de reconditionnement informatique et de découverte des environnements Linux.
-
 
 ## **Debian 13 XFCE est un choix volontaire**
 Debian ne possède pas réellement de version « serveur » distincte : c'est essentiellement le choix des composants et de l'environnement graphique qui différencie les installations.
