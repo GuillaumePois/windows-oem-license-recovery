@@ -137,3 +137,11 @@ Microsoft — Activation de Windows
 Site officiel Debian
 
 Projet personnel d'administration systèmes, de reconditionnement informatique et de découverte des environnements Linux.
+
+
+## **Debian 13 XFCE est un choix volontaire**
+Debian ne possède pas réellement de version « serveur » distincte : c'est essentiellement le choix des composants et de l'environnement graphique qui différencie les installations.
+J'ai choisi XFCE pour conserver une interface graphique légère, notamment pour faciliter certaines opérations de maintenance, la surveillance des disques et l'administration locale.
+Ce serveur sera exclusivement dédié aux sauvegardes, avec des tâches automatisées et une utilisation ponctuelle.
+L'objectif est aussi pédagogique : continuer à approfondir mes connaissances en administration Linux, aussi bien en ligne de commande qu'avec une interface graphique.
+Je suis conscient qu'une installation sans environnement graphique serait plus légère, mais pour mon usage, le compromis entre simplicité d'administration et consommation de ressources me convient parfaitement.
